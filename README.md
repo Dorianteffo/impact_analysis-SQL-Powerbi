@@ -162,31 +162,31 @@ At the end of the Before & After changes analysis, he have figured out many thin
 
 - There were a total of 2.35 Billion sales 4 weeks before the supply changes, and 2.32 Billion, the 4 weeks after, which represent a reduction of 1.15%.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/17bcafe8-7c4e-4d21-93a0-5b97f2de2239/Untitled.png)
+![Untitled](graph/sales_4_week_beforeafter.png)
 
 - For the 12 weeks before, there total of sales were 7.13 Billion and 6.97 Billion the 12 weeks after. That represent a reduction of 2.14% in sales.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/885ab339-01a5-442d-9850-a6e3d73d466c/Untitled.png)
+![Untitled](graph/sales_12_weeks_beforeafter.png)
 
 - ASIA and EUROPE were the most impacted by the changes, with an increase of 4.73% of sales in EUROPE and a reduction of 3.26% in ASIA.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bbc27e00-fd53-4dfa-a444-02166ebc0f60/Untitled.png)
+![Untitled](graph/sales_before&after_region.png)
 
 - Retail platform had a reduction of 2.43% in sales versus an increase of 7.18% on Shopify
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2cd4dad1-1a26-4c30-a1c5-3b68e6413154/Untitled.png)
+![Untitled](graph/sales_before&after_platform.png)
 
 - In age_band, the Middle Aged was the most impacted by changes, with a reduction of 1.97%
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2264e0ca-c160-4c7d-b0c3-f0bb55610c33/Untitled.png)
+![Untitled](graph/sales_before&after_ageband.png)
 
 - In demographic, Families were the most impacted by the changes, with a reduction in -1.82% in sale.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f863e739-ea97-4aca-a7c8-756cd1d435eb/Untitled.png)
+![Untitled](graph/sales_before&after_demographic.png)
 
 - Guest customers and new customers were the most impacted by the changes with a reduction of -3.00% in sales for Guest customers and an increase of 1.01% for guest customers.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/172a9c17-ea80-4d89-b268-71918946a5a3/Untitled.png)
+![Untitled](graph/sales_before&after_customer.png)
 
 # Discussion Findings,Implications and Conclusion
 
@@ -246,4 +246,4 @@ In future introduction of similar sustainability updates to the business, i high
 
 The final Dashboard ( you can check it on the power bi file) : 
 
-![dashboard_picture.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28bd7706-6e65-471d-9c8e-b06407be858b/dashboard_picture.png)
+![dashboard_picture.PNG](dashboard_picture.png)
