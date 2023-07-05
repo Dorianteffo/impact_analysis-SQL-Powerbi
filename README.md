@@ -128,7 +128,7 @@ After the EDA, we have found this :
 | September | Retail  | 97.38% |
 | September | Shopify  | 2.62% |
 
-![sales_by_month_and_platform.PNG](graph/sales_by_month_and_platform.png)
+![sales_by_month_and_platform.PNG](graph/sales_by_month_and_platform.PNG)
 
 - Percentage of sales by demographic each year
 
@@ -144,7 +144,7 @@ After the EDA, we have found this :
 | 2020 | Couples | 28.72% |
 | 2020 | Families  | 32.73% |
 
-![sales_by_year_and_demographic.PNG](graph/sales_by_year_and_demographic.png)
+![sales_by_year_and_demographic.PNG](graph/sales_by_year_and_demographic.PNG)
 
 - The age_band Retires and the demographic Families contribute the most in Retail Sales, with a total of 6.63 billion sales.
 - The average transaction size each year by platform:
@@ -162,31 +162,31 @@ At the end of the Before & After changes analysis, he have figured out many thin
 
 - There were a total of 2.35 Billion sales 4 weeks before the supply changes, and 2.32 Billion, the 4 weeks after, which represent a reduction of 1.15%.
 
-![Untitled](graph/sales_4_week_beforeafter.png)
+![Untitled](graph/sales_4_week_beforeafter.PNG)
 
 - For the 12 weeks before, there total of sales were 7.13 Billion and 6.97 Billion the 12 weeks after. That represent a reduction of 2.14% in sales.
 
-![Untitled](graph/sales_12_weeks_beforeafter.png)
+![Untitled](graph/sales_12_weeks_beforeafter.PNG)
 
 - ASIA and EUROPE were the most impacted by the changes, with an increase of 4.73% of sales in EUROPE and a reduction of 3.26% in ASIA.
 
-![Untitled](graph/sales_before&after_region.png)
+![Untitled](graph/sales_before&after_region.PNG)
 
 - Retail platform had a reduction of 2.43% in sales versus an increase of 7.18% on Shopify
 
-![Untitled](graph/sales_before&after_platform.png)
+![Untitled](graph/sales_before&after_platform.PNG)
 
 - In age_band, the Middle Aged was the most impacted by changes, with a reduction of 1.97%
 
-![Untitled](graph/sales_before&after_ageband.png)
+![Untitled](graph/sales_before&after_ageband.PNG)
 
 - In demographic, Families were the most impacted by the changes, with a reduction in -1.82% in sale.
 
-![Untitled](graph/sales_before&after_demographic.png)
+![Untitled](graph/sales_before&after_demographic.PNG)
 
 - Guest customers and new customers were the most impacted by the changes with a reduction of -3.00% in sales for Guest customers and an increase of 1.01% for guest customers.
 
-![Untitled](graph/sales_before&after_customer.png)
+![Untitled](graph/sales_before&after_customer.PNG)
 
 # Discussion Findings,Implications and Conclusion
 
@@ -246,4 +246,4 @@ In future introduction of similar sustainability updates to the business, i high
 
 The final Dashboard ( you can check it on the power bi file) : 
 
-![dashboard_picture.PNG](dashboard_picture.png)
+![dashboard_picture.PNG](dashboard_picture.PNG)
