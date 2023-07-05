@@ -30,7 +30,7 @@ Dataset : https://drive.google.com/file/d/1bJdhfVPC0KSfXxvGJgvcuFd105m2GD7W/view
 
 The Entity Relationship diagram is shown below with the data types made clear, please note that there is only this one table.
 
-![diagram.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4fe70ae-3cc0-4c71-b41a-f44819dda08e/diagram.png)
+![diagram.png](diagram_EA.png)
 
 The columns are pretty self-explanatory based on the column names but here are some further details about the dataset:
 
@@ -99,15 +99,15 @@ After the EDA, we have found this :
 - For each year in the dataset(2018, 2019, 2020) there are 24 weeks of data (from week 13 to week 36)
 - The number of transactions increase every year
 
-![transactions_by_Year.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3796d4bd-ddbd-4f9b-9f6a-9ec519c711be/transactions_by_Year.png)
+![transactions_by_Year.PNG](graph/transactions_by_Year.PNG)
 
 - Oceania has the highest number of sales made each month, followed by Africa and Asia. Europe has the lowest total sales made each month.
 
-![sales_by_month_and_region.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/15aeb686-c5d9-4471-b5b5-e6e40178d349/sales_by_month_and_region.png)
+![sales_by_month_and_region.PNG](graph/sales_by_month_and_region.PNG)
 
 - 99.46%(1Billion) of total transactions were made in Retail platform
 
-![transactions_by_platform.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/535f6e06-4ad7-41e0-9fc0-9c2d01201ed1/transactions_by_platform.png)
+![transactions_by_platform.PNG](graph/transactions_by_platform.PNG)
 
 - Retail platform have the highest total sales each month.
 
@@ -128,7 +128,7 @@ After the EDA, we have found this :
 | September | Retail  | 97.38% |
 | September | Shopify  | 2.62% |
 
-![sales_by_month_and_platform.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/07e3e864-782b-47b7-b6cf-a19d79bbe9e7/sales_by_month_and_platform.png)
+![sales_by_month_and_platform.PNG](graph/sales_by_month_and_platform.png)
 
 - Percentage of sales by demographic each year
 
@@ -144,7 +144,7 @@ After the EDA, we have found this :
 | 2020 | Couples | 28.72% |
 | 2020 | Families  | 32.73% |
 
-![sales_by_year_and_demographic.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84bedbe8-0c79-4b59-952c-3f7bfd270421/sales_by_year_and_demographic.png)
+![sales_by_year_and_demographic.PNG](graph/sales_by_year_and_demographic.png)
 
 - The age_band Retires and the demographic Families contribute the most in Retail Sales, with a total of 6.63 billion sales.
 - The average transaction size each year by platform:
