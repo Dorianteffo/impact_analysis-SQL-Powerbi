@@ -1,6 +1,3 @@
-# Data_mart Sales Analysis(Before & after supply changes)
-# Data_mart Sales Analysis(Before & after supply changes)
-
 LINK : https://8weeksqlchallenge.com/case-study-5/
 
 # Executive summary
@@ -149,7 +146,7 @@ After the EDA, we have found this :
 
 ![sales_by_year_and_demographic.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84bedbe8-0c79-4b59-952c-3f7bfd270421/sales_by_year_and_demographic.png)
 
-- The age_band Retires and the demographic Families contribute the most in Retail Sales, with a total of 6.63 sales.
+- The age_band Retires and the demographic Families contribute the most in Retail Sales, with a total of 6.63 billion sales.
 - The average transaction size each year by platform:
 
 | Year | Platform | Avg_transaction |
@@ -247,4 +244,6 @@ In future introduction of similar sustainability updates to the business, i high
 
 # Dashboard
 
-The final Dashboard ( you can check it on the power bi file) :
+The final Dashboard ( you can check it on the power bi file) : 
+
+![dashboard_picture.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28bd7706-6e65-471d-9c8e-b06407be858b/dashboard_picture.png)
