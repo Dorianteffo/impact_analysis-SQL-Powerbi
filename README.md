@@ -2,9 +2,9 @@ LINK : https://8weeksqlchallenge.com/case-study-5/
 
 # Executive summary
 
-In this project, we have used SQL (With clause, Window functions,Inner Join, Group By, Order by, ) for the data cleaning step, the EDA, and the Impact analysis (before & after)of the changes. We have also used PowerBI (DAX) to build the interactive dashboard and visualizations.
-
-We were supposed to answer key business questions, and give advice to data mart on future introduction of changes. 
+* In this project, we used SQL (With clause, Window functions,Inner Join, Group By, Order by, ) for the data cleaning step, the EDA, and the Impact analysis (before & after)of the changes. We also used PowerBI (DAX) to build the interactive dashboard and visualizations.
+* We found the impact in percentage of changes introduced in June 2020, and the part of the business which were the most impacted by those changes.
+*  We also gave advices to the business for future introduction of similar updates.
 
 # Introduction
 
