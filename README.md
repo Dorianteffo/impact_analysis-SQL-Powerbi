@@ -240,8 +240,8 @@ Also, although Asia sales have decreased, the Shopify sales in Asia increased  w
 
 # Recommendations 
 In future introduction of similar sustainability updates to the business, i highly recommend Data mart to : 
-### * Increase the total number of transactions made on Shopify : that would increase the total sales, because the average transaction size on Shopify each year is more than twice that of Retail). 
-### * Increase the total number of transactions made in Europe : as we have seen, Europe has the lowest total sales each month, so Data mart should increase the number of transactions made there.
-### * Do more advertising campaigns to attract more new customers
+### Increase the total number of transactions made on Shopify : that would increase the total sales, because the average transaction size on Shopify each year is more than twice that of Retail). 
+### Increase the total number of transactions made in Europe : as we have seen, Europe has the lowest total sales each month, so Data mart should increase the number of transactions made there.
+### Do more advertising campaigns to attract more new customers
 
 
