@@ -1,5 +1,3 @@
-LINK : https://8weeksqlchallenge.com/case-study-5/
-
 # Executive summary
 
 * In this project, we used SQL (With clause, Window functions,Inner Join, Group By, Order by, ) for the data cleaning step, the EDA, and the Impact analysis (before & after)of the changes. We also used PowerBI (DAX) to build the visualizations.
@@ -240,9 +238,10 @@ With further anlysis , we have also found that the sales in Europe has gained 4.
 
 Also, although Asia sales have decreased, the Shopify sales in Asia increased  with +11.20%.
 
-### Recommendations 
+# Recommendations 
 In future introduction of similar sustainability updates to the business, i highly recommend Data mart to : 
-* more focus on Shopify sales by increasing the total number of transactions made on that platform(that would increase the total sales, because the average transaction size on Shopify each year is more than twice that of Retail), and also on sales in Europe. 
-* As we have seen, Europe has the lowest total sales each month, so Data mart should increase the number of transactions made there.
+### * Increase the total number of transactions made on Shopify : that would increase the total sales, because the average transaction size on Shopify each year is more than twice that of Retail). 
+### * Increase the total number of transactions made in Europe : as we have seen, Europe has the lowest total sales each month, so Data mart should increase the number of transactions made there.
+### * Do more advertising campaigns to attract more new customers
 
 
