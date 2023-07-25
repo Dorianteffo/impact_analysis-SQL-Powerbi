@@ -1,12 +1,27 @@
-LINK : https://8weeksqlchallenge.com/case-study-5/
+# SALES ANALYSIS 
+## Table of contents 
+- [Executive Summary](#executivesummary)
+- [Introduction](#introduction)
+- [Methodology](#methodology)
+    - [Available Data](#data)
+    - [Data Cleaning](#cleaning)
+    - [Data Exploration](#exploration)
+    - [Impact Analysis](#impact)
+- [Results](#results)
+- [Discussion Findings and Implications](#discussion)
+- [Recommendations](#recommendations)
+- [Final Dashboard](#dashboard)
 
-# Executive summary
 
-In this project, we have use SQL (With clause, Window functions,Inner Join, Group By, Order by, ) for the data cleaning step, the EDA, and the Impact analysis (before & after)of the changes. We have also used PowerBI (DAX) to build the interactive dashboard and visualizations.
+<a name="executivesummary"></a>
+## Executive Summary
 
-We were supposed to answer key business questions, and give advice to data mart on future introduction of changes. 
+* In this project, we used SQL (CTEs, Window functions,Inner Join, Group By, Order by, ) for the data cleaning, the Exploratory Data Anaysis, and the Impact analysis (before & after)of the changes. We also used PowerBI (DAX) to build the visualizations.
+* We found the impact in percentage of changes introduced in June 2020, and the part of the business which were the most impacted by those changes.
+*  We also gave advices to the business for future introduction of similar updates.
 
-# Introduction
+<a name="introduction"></a>
+## Introduction
 
 Data Mart is Danny’s latest venture and after running international operations for his online supermarket that specialises in fresh produce. Danny is asking for your support to analyse his sales performance.
 
@@ -20,9 +35,11 @@ The key business question he wants you to help him answer are the following:
 - **Which platform, region, segment and customer types were the most impacted by this change?**
 - **What can we do about future introduction of similar sustainability updates to the business to minimise impact on sales?**
 
-# Methodology
+<a name="methodology"></a>
+## Methodology
 
-## Available Data
+<a name="data"></a>
+### Available Data
 
 For this case study there is only a single table: weekly_sales (17117 rows)
 
@@ -30,7 +47,7 @@ Dataset : https://drive.google.com/file/d/1bJdhfVPC0KSfXxvGJgvcuFd105m2GD7W/view
 
 The Entity Relationship diagram is shown below with the data types made clear, please note that there is only this one table.
 
-![diagram.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c4fe70ae-3cc0-4c71-b41a-f44819dda08e/diagram.png)
+![diagram.png](diagram_EA.png)
 
 The columns are pretty self-explanatory based on the column names but here are some further details about the dataset:
 
@@ -41,7 +58,8 @@ The columns are pretty self-explanatory based on the column names but here are s
 
 Each record in the dataset is related to a specific aggregated slice of the underlying sales data rolled up into a week_date value which represents the start of the sales week.
 
-## Data cleaning
+<a name="cleaning"></a>
+### Data Cleaning
 
 For this part, we have created a new table named clean_weekly_sales with :
 
@@ -65,7 +83,8 @@ For this part, we have created a new table named clean_weekly_sales with :
 - the sales column
 - the avg_transaction as the sales value divided by the transaction rounded to 2 decimal
 
-## Data Exploration
+<a name="exploration"></a>
+### Data Exploration
 
 For this step, we have answered many questions : 
 
@@ -78,7 +97,8 @@ For this step, we have answered many questions :
 7. Which age_band and demographic values contribute the most to Retail sales?
 8. Can we use the avg_transaction column to find the average transaction size for each year for Retail vs Shopify? If not - how would you calculate it instead?
 
-## Impact Analysis( Before & After)
+<a name="impact"></a>
+### Impact Analysis( Before & After)
 
 This technique is usually used when we inspect an important event and want to inspect the impact before and after a certain point in time.
 
@@ -92,22 +112,23 @@ Using this analysis approach - we have answered the following questions:
 2. What about the entire 12 weeks before and after?
 3. How do the sale metrics for these 2 periods before and after compare with the previous years in 2018 and 2019?
 
-# Results
+<a name="results"></a>
+## Results
 
 After the EDA, we have found this : 
 
 - For each year in the dataset(2018, 2019, 2020) there are 24 weeks of data (from week 13 to week 36)
 - The number of transactions increase every year
 
-![transactions_by_Year.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3796d4bd-ddbd-4f9b-9f6a-9ec519c711be/transactions_by_Year.png)
+![transactions_by_Year.PNG](graph/transactions_by_Year.PNG)
 
 - Oceania has the highest number of sales made each month, followed by Africa and Asia. Europe has the lowest total sales made each month.
 
-![sales_by_month_and_region.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/15aeb686-c5d9-4471-b5b5-e6e40178d349/sales_by_month_and_region.png)
+![sales_by_month_and_region.PNG](graph/sales_by_month_and_region.PNG)
 
 - 99.46%(1Billion) of total transactions were made in Retail platform
 
-![transactions_by_platform.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/535f6e06-4ad7-41e0-9fc0-9c2d01201ed1/transactions_by_platform.png)
+![transactions_by_platform.PNG](graph/transactions_by_platform.PNG)
 
 - Retail platform have the highest total sales each month.
 
@@ -128,7 +149,7 @@ After the EDA, we have found this :
 | September | Retail  | 97.38% |
 | September | Shopify  | 2.62% |
 
-![sales_by_month_and_platform.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/07e3e864-782b-47b7-b6cf-a19d79bbe9e7/sales_by_month_and_platform.png)
+![sales_by_month_and_platform.PNG](graph/sales_by_month_and_platform.PNG)
 
 - Percentage of sales by demographic each year
 
@@ -144,7 +165,7 @@ After the EDA, we have found this :
 | 2020 | Couples | 28.72% |
 | 2020 | Families  | 32.73% |
 
-![sales_by_year_and_demographic.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84bedbe8-0c79-4b59-952c-3f7bfd270421/sales_by_year_and_demographic.png)
+![sales_by_year_and_demographic.PNG](graph/sales_by_year_and_demographic.PNG)
 
 - The age_band Retires and the demographic Families contribute the most in Retail Sales, with a total of 6.63 billion sales.
 - The average transaction size each year by platform:
@@ -162,33 +183,34 @@ At the end of the Before & After changes analysis, he have figured out many thin
 
 - There were a total of 2.35 Billion sales 4 weeks before the supply changes, and 2.32 Billion, the 4 weeks after, which represent a reduction of 1.15%.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/17bcafe8-7c4e-4d21-93a0-5b97f2de2239/Untitled.png)
+![Untitled](graph/sales_4_week_beforeafter.PNG)
 
 - For the 12 weeks before, there total of sales were 7.13 Billion and 6.97 Billion the 12 weeks after. That represent a reduction of 2.14% in sales.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/885ab339-01a5-442d-9850-a6e3d73d466c/Untitled.png)
+![Untitled](graph/sales_12_weeks_beforeafter.PNG)
 
 - ASIA and EUROPE were the most impacted by the changes, with an increase of 4.73% of sales in EUROPE and a reduction of 3.26% in ASIA.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bbc27e00-fd53-4dfa-a444-02166ebc0f60/Untitled.png)
+![Untitled](graph/sales_before&after_region.PNG)
 
 - Retail platform had a reduction of 2.43% in sales versus an increase of 7.18% on Shopify
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2cd4dad1-1a26-4c30-a1c5-3b68e6413154/Untitled.png)
+![Untitled](graph/sales_before&after_platform.PNG)
 
 - In age_band, the Middle Aged was the most impacted by changes, with a reduction of 1.97%
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2264e0ca-c160-4c7d-b0c3-f0bb55610c33/Untitled.png)
+![Untitled](graph/sales_before&after_ageband.PNG)
 
 - In demographic, Families were the most impacted by the changes, with a reduction in -1.82% in sale.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f863e739-ea97-4aca-a7c8-756cd1d435eb/Untitled.png)
+![Untitled](graph/sales_before&after_demographic.PNG)
 
 - Guest customers and new customers were the most impacted by the changes with a reduction of -3.00% in sales for Guest customers and an increase of 1.01% for guest customers.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/172a9c17-ea80-4d89-b268-71918946a5a3/Untitled.png)
+![Untitled](graph/sales_before&after_customer.PNG)
 
-# Discussion Findings,Implications and Conclusion
+<a name="discussion"></a>
+## Discussion Findings and Implications
 
 In conclusion, in response to the key business questions, we have many findings :
 
@@ -240,10 +262,16 @@ With further anlysis , we have also found that the sales in Europe has gained 4.
 
 Also, although Asia sales have decreased, the Shopify sales in Asia increased  with +11.20%.
 
-In future introduction of similar sustainability updates to the business, i highly recommend Data mart to more focus on Shopify sales by increasing the total number of transactions made on that platform(that would increase the total sales, because the average transaction size on Shopify each year is more than twice that of Retail), and also on sales in Europe. As we have seen, Europe has the lowest total sales each month, so Data mart should increase the number of transactions made there.
+<a name="recommendations"></a>
+## Recommendations 
+In future introduction of similar sustainability updates to the business, i highly recommend Data mart to : 
+* Increase the total number of transactions made on Shopify : that would increase the total sales, because the average transaction size on Shopify each year is more than twice that of Retail. 
+* Increase the total number of transactions made in Europe : as we have seen, Europe has the lowest total sales and also the lowest number of transactions each month, so Data mart should increase the number of transactions made there.
+* Do more advertising campaigns to attract more new customers.
 
-# Dashboard
+<a name="dashboard"></a>
+## Final Dashboard 
+You can check the final dashboard [here](https://app.powerbi.com/links/WDC8YpliBO?ctid=c08c659d-0e02-433b-92fb-4f6932a52410&pbi_source=linkShare)
 
-The final Dashboard ( you can check it on the power bi file) : 
 
-![dashboard_picture.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28bd7706-6e65-471d-9c8e-b06407be858b/dashboard_picture.png)
+
