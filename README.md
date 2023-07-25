@@ -1,9 +1,26 @@
-# Executive summary
+# SALES ANALYSIS 
+# Table of contents 
+- [Executive Summary](#executivesummary)
+- [Introduction](#introduction)
+- [Methodology](#methodology)
+    - [Available Data](#data)
+    - [Data Cleaning](#cleaning)
+    - [Data Exploration](#exploration)
+    - [Impact Analysis](#impact)
+- [Results](#results)
+- [Discussion Findings and Implications](#discussion)
+- [Recommendations](#recommendations)
+- [Final Dashboard](#dashboard)
+
+
+<a name="executivesummary"></a>
+# Executive Summary
 
 * In this project, we used SQL (CTEs, Window functions,Inner Join, Group By, Order by, ) for the data cleaning, the Exploratory Data Anaysis, and the Impact analysis (before & after)of the changes. We also used PowerBI (DAX) to build the visualizations.
 * We found the impact in percentage of changes introduced in June 2020, and the part of the business which were the most impacted by those changes.
 *  We also gave advices to the business for future introduction of similar updates.
 
+<a name="introduction"></a>
 # Introduction
 
 Data Mart is Danny’s latest venture and after running international operations for his online supermarket that specialises in fresh produce. Danny is asking for your support to analyse his sales performance.
@@ -18,8 +35,10 @@ The key business question he wants you to help him answer are the following:
 - **Which platform, region, segment and customer types were the most impacted by this change?**
 - **What can we do about future introduction of similar sustainability updates to the business to minimise impact on sales?**
 
+<a name="methodology"></a>
 # Methodology
 
+<a name="data"></a>
 ## Available Data
 
 For this case study there is only a single table: weekly_sales (17117 rows)
@@ -39,7 +58,8 @@ The columns are pretty self-explanatory based on the column names but here are s
 
 Each record in the dataset is related to a specific aggregated slice of the underlying sales data rolled up into a week_date value which represents the start of the sales week.
 
-## Data cleaning
+<a name="cleaning"></a>
+## Data Cleaning
 
 For this part, we have created a new table named clean_weekly_sales with :
 
@@ -63,6 +83,7 @@ For this part, we have created a new table named clean_weekly_sales with :
 - the sales column
 - the avg_transaction as the sales value divided by the transaction rounded to 2 decimal
 
+<a name="exploration"></a>
 ## Data Exploration
 
 For this step, we have answered many questions : 
@@ -76,6 +97,7 @@ For this step, we have answered many questions :
 7. Which age_band and demographic values contribute the most to Retail sales?
 8. Can we use the avg_transaction column to find the average transaction size for each year for Retail vs Shopify? If not - how would you calculate it instead?
 
+<a name="impact"></a>
 ## Impact Analysis( Before & After)
 
 This technique is usually used when we inspect an important event and want to inspect the impact before and after a certain point in time.
@@ -90,6 +112,7 @@ Using this analysis approach - we have answered the following questions:
 2. What about the entire 12 weeks before and after?
 3. How do the sale metrics for these 2 periods before and after compare with the previous years in 2018 and 2019?
 
+<a name="results"></a>
 # Results
 
 After the EDA, we have found this : 
@@ -186,7 +209,8 @@ At the end of the Before & After changes analysis, he have figured out many thin
 
 ![Untitled](graph/sales_before&after_customer.PNG)
 
-# Discussion Findings,Implications and Conclusion
+<a name="discussion"></a>
+# Discussion Findings and Implications
 
 In conclusion, in response to the key business questions, we have many findings :
 
@@ -238,13 +262,15 @@ With further anlysis , we have also found that the sales in Europe has gained 4.
 
 Also, although Asia sales have decreased, the Shopify sales in Asia increased  with +11.20%.
 
+<a name="recommendations"></a>
 # Recommendations 
 In future introduction of similar sustainability updates to the business, i highly recommend Data mart to : 
 ### Increase the total number of transactions made on Shopify : that would increase the total sales, because the average transaction size on Shopify each year is more than twice that of Retail. 
 ### Increase the total number of transactions made in Europe : as we have seen, Europe has the lowest total sales and also the lowest number of transactions each month, so Data mart should increase the number of transactions made there.
 ### Do more advertising campaigns to attract more new customers.
 
-# Final dashboard 
+<a name="dashboard"></a>
+# Final Dashboard 
 You can check the final dashboard [here](https://app.powerbi.com/links/WDC8YpliBO?ctid=c08c659d-0e02-433b-92fb-4f6932a52410&pbi_source=linkShare)
 
 
