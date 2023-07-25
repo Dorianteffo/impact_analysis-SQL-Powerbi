@@ -1,6 +1,6 @@
 # Executive summary
 
-* In this project, we used SQL (With clause, Window functions,Inner Join, Group By, Order by, ) for the data cleaning, the Exploratory Data Anaysis, and the Impact analysis (before & after)of the changes. We also used PowerBI (DAX) to build the visualizations.
+* In this project, we used SQL (CTEs, Window functions,Inner Join, Group By, Order by, ) for the data cleaning, the Exploratory Data Anaysis, and the Impact analysis (before & after)of the changes. We also used PowerBI (DAX) to build the visualizations.
 * We found the impact in percentage of changes introduced in June 2020, and the part of the business which were the most impacted by those changes.
 *  We also gave advices to the business for future introduction of similar updates.
 
@@ -242,6 +242,10 @@ Also, although Asia sales have decreased, the Shopify sales in Asia increased  w
 In future introduction of similar sustainability updates to the business, i highly recommend Data mart to : 
 ### Increase the total number of transactions made on Shopify : that would increase the total sales, because the average transaction size on Shopify each year is more than twice that of Retail. 
 ### Increase the total number of transactions made in Europe : as we have seen, Europe has the lowest total sales and also the lowest number of transactions each month, so Data mart should increase the number of transactions made there.
-### Do more advertising campaigns to attract more new customers
+### Do more advertising campaigns to attract more new customers.
+
+# Final dashboard 
+You can check the final dashboard [here](https://app.powerbi.com/links/WDC8YpliBO?ctid=c08c659d-0e02-433b-92fb-4f6932a52410&pbi_source=linkShare)
+
 
 
