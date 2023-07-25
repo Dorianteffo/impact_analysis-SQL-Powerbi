@@ -272,6 +272,6 @@ In future introduction of similar sustainability updates to the business, i high
 <a name="dashboard"></a>
 ## Final Dashboard 
 You can check the final interactive dashboard [here](https://app.powerbi.com/links/WDC8YpliBO?ctid=c08c659d-0e02-433b-92fb-4f6932a52410&pbi_source=linkShare)
-[Dashboard.PNG](Dashboard.PNG)
+![Dashboard.PNG](Dashboard.PNG)
 
 
